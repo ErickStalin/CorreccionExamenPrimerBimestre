@@ -8,16 +8,19 @@ public class Main {
                 switch (op){
                     case 1:
                     {
+                        System.out.println("---VIDEOJUEGOS---");
                         m1.ejer1();
                     }
                     break;
                     case 2:
                     {
+                        System.out.println("---MUSICA---");
                         m1.ejer2();
                     }
                     break;
                     case 3:
                     {
+                        System.out.println("---COMIDAS---");
                         m1.ejer3();
                     }
                     break;

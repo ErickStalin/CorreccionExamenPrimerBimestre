@@ -5,7 +5,7 @@ public class Menus {
 
     Scanner entrada = new Scanner(System.in);
     comidas m1 = new comidas("Fritada",5,"Ecuador");
-    musica music1 = new musica("Fiebre","Pop",23,"King Doudou",2001);
+    musica music1 = new musica("Bad Gyal","Pop",23,"King Doudou",2001);
     juegos j1 = new juegos("Call of Duty","Accion",2022,"Activision","España","PEGI",2022);
     public int opcion(){
         int op;
@@ -13,6 +13,7 @@ public class Menus {
         System.out.println("1. VIDEOJUEGOS");
         System.out.println("2. MUSICA");
         System.out.println("3. COMIDAS");
+        System.out.println("0. SALIR");
         System.out.print("Ingrese la opcion que desea: ");
         op = entrada.nextInt();
         return op;
@@ -20,7 +21,7 @@ public class Menus {
     public void ejer1(){
         List miLista1 = new ArrayList();
         miLista1.add(j1);
-        imptimir2((ArrayList) miLista1);
+        imptimir1((ArrayList) miLista1);
     }
     public void ejer2(){
         List miLista2 = new ArrayList();
